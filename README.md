@@ -2,7 +2,8 @@
 
 # Requirements
 ```
-In order to log the accounts, you must have already the accounts created, then you must place the email and password of the accounts you wish to log in-game in accounts.txt with the following format:
+In order to log the accounts, you must have already the accounts created, then you must place the email and 
+password of the accounts you wish to log in-game in accounts.txt with the following format:
 
 email:password
 email:password
@@ -19,7 +20,7 @@ $ npm install
 $ node index.js
 ```
 ```ts
-TypeScript
+TypeScript -> index.ts
 
 Windows
 
