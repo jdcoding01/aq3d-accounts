@@ -1,3 +1,5 @@
+FUCK OFF FAN
+
 > AdventureQuest3D socket bot to log into the game/control multiple accounts at once.
 
 # Requirements
@@ -35,4 +37,3 @@ $ npm i
 $ ts-node index.ts
 ```
 
-> For any questions, comments, contributing -> jose@mytalented.com
