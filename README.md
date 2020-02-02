@@ -1,4 +1,4 @@
-FUCK OFF FAN
+# FUCK OFF FAN  OR I'LL HAVE TO UNPLUG YOU FROM THE WALL
 
 > AdventureQuest3D socket bot to log into the game/control multiple accounts at once.
 
