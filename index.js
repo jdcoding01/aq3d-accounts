@@ -55,16 +55,16 @@ class Horde {
       }
 
     connect(token, id) {
-        const serverRemote = 'bluedragon.aq3d.com';
-        const serverPort = 5590;
+        const serverRemote = 'nextdragon.aq3d.com';
+        const serverPort = 5594;
         this.socket = createConnection({ host: serverRemote, port: serverPort}, () => {
           console.log('Connected!');
           this.socket.setEncoding('binary');
           this.write({ id, token, type: 3, cmd: 1 })
              setInterval(() => {
-                     this.write({ charID: config.ID, link: config.join, type: 29, cmd: 6 });
-                      this.write({ em: 12, type: 21, cmd: 255 });
-                      this.write({ ID: 5, spellTemplateID: 12, targetIDs: [], targetTypes: [], type: 12, cmd: 1 });
+                     this.write({ charID: '', link: '', type: 29, cmd: 6 });
+                      //this.write({ em: 12, type: 21, cmd: 255 });
+                      //this.write({ ID: 5, spellTemplateID: 12, targetIDs: [], targetTypes: [], type: 12, cmd: 1 });
                 }, 1000);
               });
 
